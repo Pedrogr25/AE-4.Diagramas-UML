@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.05" multi-file="no" uid="simp9f555e321c2d4d179a7a86f6ef12fb29">
+  <meta>
+    <name>prueba1</name>
+    <authors>Pedro García Rodríguez</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>643</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>29</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="include" type="Include" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>6</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>8</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-7e71b5e6fd0148f2af3ac7e2eaa3b150" name="" task-id-sequence="0">
+    <working-schedule uid="ws-6fa675400c4840cf83bc30ea0f99126b" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Pedro García</first-name>
+        <last-name>Rodríguez</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-6a8c293a0ca342d4aa404f8fcdaf6e13" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Pedro García</first-name>
+        <last-name>Rodríguez</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-2098e991d2474a6d8b4e929ab5cbd28e" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Class:876c93959b3248729f7f3011bef20bdd" tid="" name="Articulo" description="" class-ref="876c93959b3248729f7f3011bef20bdd" />
+      <type id="Class:21d56d5ac58441b9a34b0b6734278505" tid="" name="LineaDeFactura" description="" class-ref="21d56d5ac58441b9a34b0b6734278505" />
+      <type id="Class:626a9a9fbf3e41f38e93df843e59829c" tid="" name="Factura" description="" class-ref="626a9a9fbf3e41f38e93df843e59829c" />
+      <type id="Class:dde2ea4719f24ff1a62c4911104b1d93" tid="" name="Cliente" description="" class-ref="dde2ea4719f24ff1a62c4911104b1d93" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="7e6b7658e3e0480aa9d02c82af2d8a53" cid="UC019" type="use-case" name="UseCase9" style-class="" creator="" creation-date="03/07/2022 12:15:07">
+      <use-case>
+        <stakeholders />
+      </use-case>
+    </item>
+  </items>
+  <models>
+    <model id="p33352ce56c2f44e48ec02c4bca8afd1c_175723565" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/03/2022 11:13:59</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p8f133443b8954ae8ac000c02383e286b_895743249" name="UseCaseDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:13:59</creation-date>
+          <change-date>03/03/2022 11:13:59</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="d265f28c4de64d08a1ab9f35df34dca4" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="uml-usecase" id="p91c371348a5b4457ab22c156c15c2238_717230543" name="UseCaseDiagram2" order-index="2" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,70">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:14:47</creation-date>
+          <change-date>03/03/2022 11:24:37</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ab3b68670e86460a9fa24e9f501880a4" cid="AC001" type="actor" name="OPERADOR" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:17:54" visibility="undefined" />
+          <item id="1a64997858bd4d3dae4420e242464f07" cid="UC001" type="use-case" name="MANTENIMIENTO DATOS CLIENTES" style-class="" owner="20728cd6d7a24754a097c633fa7ae0ef" change-tracking-state="added" creator="" creation-date="03/03/2022 11:18:36" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="0e84081a7df54a0696cca003aac12c3c" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:18:36" from="ab3b68670e86460a9fa24e9f501880a4" to="1a64997858bd4d3dae4420e242464f07" visibility="package">
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" to="1a64997858bd4d3dae4420e242464f07" derived="false">
+              <start-role id="umlar-94a79ae5-687a-4c6f-a8ef-f81f700c906e" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-ac090ff0-debf-48d0-b9aa-16e42e5254d2" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="35544abe0a89439bb02e53550597f9c3" cid="UC002" type="use-case" name="MANTENIMIENTO DATOS DE ARTICULOS" style-class="" owner="20728cd6d7a24754a097c633fa7ae0ef" change-tracking-state="added" creator="" creation-date="03/03/2022 11:19:13" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="8fb870724ca441aa81446eeed055c1eb" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:19:13" from="ab3b68670e86460a9fa24e9f501880a4" to="35544abe0a89439bb02e53550597f9c3" visibility="package">
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" to="35544abe0a89439bb02e53550597f9c3" derived="false">
+              <start-role id="umlar-d5a4b513-7c7b-4098-92ae-bc005c6b1818" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-06a253cb-e8ae-4d3e-94ad-f2f6ad3ed612" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="e443666a277b43f68d5862c53d1bc209" cid="UC003" type="use-case" name="MANTENIMIENTO DATOS DE FACTURAS" style-class="" owner="20728cd6d7a24754a097c633fa7ae0ef" change-tracking-state="added" creator="" creation-date="03/03/2022 11:19:33" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="33121312067043f7abed59166aad9cfb" cid="REL003" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:19:33" from="ab3b68670e86460a9fa24e9f501880a4" to="e443666a277b43f68d5862c53d1bc209" visibility="package">
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" to="e443666a277b43f68d5862c53d1bc209" derived="false">
+              <start-role id="umlar-96da70ee-49d6-4766-8412-80a5b0410713" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-b3b3769e-f0bc-44b5-9ef4-f55da6aec228" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="20728cd6d7a24754a097c633fa7ae0ef" cid="SYS001" type="system-boundary" name="SISTEMA DE GESTION DEL ALMACEN" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:24:37">
+            <owned-items>
+              <owned-item ref="1a64997858bd4d3dae4420e242464f07" />
+              <owned-item ref="35544abe0a89439bb02e53550597f9c3" />
+              <owned-item ref="e443666a277b43f68d5862c53d1bc209" />
+              <owned-item ref="1a64997858bd4d3dae4420e242464f07" />
+              <owned-item ref="35544abe0a89439bb02e53550597f9c3" />
+              <owned-item ref="e443666a277b43f68d5862c53d1bc209" />
+            </owned-items>
+          </item>
+        </abstract-items>
+        <layer id="1d92d95b8b9a4d6d9760a109f7e5c60e" name="Default" visible="true" enabled="true" locked="false">
+          <item id="ab3b68670e86460a9fa24e9f501880a4" iid="f39b9332fc6e4d63bdad8996d6bdf77d" creation-date="03/03/2022 11:17:54" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="194" ay="287" awidth="50" aheight="100" x="194" y="287" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="20728cd6d7a24754a097c633fa7ae0ef" iid="f0aacb6ba9ce4e41b9512f5af0007ff9" creation-date="03/03/2022 11:24:37" order-index="7" type="entity">
+            <layout ax="264" ay="20" awidth="374" aheight="515" x="264" y="20" width="374" height="515" expanded="264,20,374,515" collapsed="0,0,0,0" rotation-center="0,72" />
+          </item>
+          <item id="e443666a277b43f68d5862c53d1bc209" iid="3cc3fdae05ef492188b9b699e22d32fd" container="20728cd6d7a24754a097c633fa7ae0ef" container-iid="f0aacb6ba9ce4e41b9512f5af0007ff9" creation-date="03/03/2022 11:19:33" order-index="5" type="entity">
+            <layout ax="408" ay="403.5" awidth="170" aheight="106" x="408" y="403.5" width="170" height="75" rotation-center="-21.5,-13.5" />
+            <use-case />
+          </item>
+          <item id="35544abe0a89439bb02e53550597f9c3" iid="ff3faf5df49e489d8a2d9932ab5b0824" container="20728cd6d7a24754a097c633fa7ae0ef" container-iid="f0aacb6ba9ce4e41b9512f5af0007ff9" creation-date="03/03/2022 11:19:13" order-index="3" type="entity">
+            <layout ax="427" ay="224.5" awidth="170" aheight="106" x="427" y="224.5" width="170" height="75" rotation-center="-17.5,-11" />
+            <use-case />
+          </item>
+          <item id="1a64997858bd4d3dae4420e242464f07" iid="e7a5e7e50e264d1b95f9b3d0b8b2a62b" container="20728cd6d7a24754a097c633fa7ae0ef" container-iid="f0aacb6ba9ce4e41b9512f5af0007ff9" creation-date="03/03/2022 11:18:36" order-index="1" type="entity">
+            <layout ax="369" ay="80.5" awidth="164" aheight="102" x="369" y="80.5" width="164" height="110" rotation-center="-22,21.5" />
+            <use-case />
+          </item>
+          <item id="33121312067043f7abed59166aad9cfb" iid="5e2bd9274aa440f2b912321fcedfe5ca" creation-date="03/03/2022 11:19:33" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="244" y1="348" x2="432" y2="419" start-border-pos="0.402144165039062" end-border-pos="0.963245463821123" name-position="0,20">
+              <points>
+                <point x="244" y="348" />
+                <point x="432" y="419" />
+              </points>
+            </layout>
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" from-iid="f39b9332fc6e4d63bdad8996d6bdf77d" to="e443666a277b43f68d5862c53d1bc209" to-iid="3cc3fdae05ef492188b9b699e22d32fd" />
+          </item>
+          <item id="8fb870724ca441aa81446eeed055c1eb" iid="fe0b8ce1589a4eac92e5ef8cba6f4ba5" creation-date="03/03/2022 11:19:13" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="244" y1="332" x2="431" y2="295" start-border-pos="0.362414703369141" end-border-pos="0.833452764547096" name-position="0,20">
+              <points>
+                <point x="244" y="332" />
+                <point x="431" y="295" />
+              </points>
+            </layout>
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" from-iid="f39b9332fc6e4d63bdad8996d6bdf77d" to="35544abe0a89439bb02e53550597f9c3" to-iid="ff3faf5df49e489d8a2d9932ab5b0824" />
+          </item>
+          <item id="0e84081a7df54a0696cca003aac12c3c" iid="003b2df1b0a44efa92568a6f770299f6" creation-date="03/03/2022 11:18:36" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="244" y1="315" x2="394" y2="168" start-border-pos="0.319773712158203" end-border-pos="0.711258213694503" name-position="0,20">
+              <points>
+                <point x="244" y="315" />
+                <point x="394" y="168" />
+              </points>
+            </layout>
+            <relation from="ab3b68670e86460a9fa24e9f501880a4" from-iid="f39b9332fc6e4d63bdad8996d6bdf77d" to="1a64997858bd4d3dae4420e242464f07" to-iid="e7a5e7e50e264d1b95f9b3d0b8b2a62b" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-usecase" id="p83e04f7135774540b33d5f9b5f5bccca_547710324" name="UseCaseDiagram3" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-71">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Pedro García Rodríguez</author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:25:49</creation-date>
+          <change-date>03/07/2022 12:15:32</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="67e152328bc1436089c5238eae08c10a" cid="AC002" type="actor" name="OPERADOR" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:25:55" visibility="undefined" />
+          <item id="53ff70e934d14105aa9e614c92317663" cid="UC004" type="use-case" name="DAR DE ALTA CLIENTE" style-class="" owner="0a10acb139fa4e079060947efae90ea5" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="f97719f78c5e47b59606e4850658a095" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" from="67e152328bc1436089c5238eae08c10a" to="53ff70e934d14105aa9e614c92317663" visibility="package">
+            <relation from="67e152328bc1436089c5238eae08c10a" to="53ff70e934d14105aa9e614c92317663" derived="false">
+              <start-role id="umlar-9e8f2726-0789-4dcd-8570-643b7fbc60d2" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-927d9f19-4b81-4116-ba3c-c19fcfc2093d" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="9dbb6bcd5bbd43c99f394418db331d0a" cid="UC005" type="use-case" name="DAR DE BAJA CLIENTE" style-class="" owner="0a10acb139fa4e079060947efae90ea5" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="b888a410719b4d6c832787c0453246b9" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" from="67e152328bc1436089c5238eae08c10a" to="9dbb6bcd5bbd43c99f394418db331d0a" visibility="package">
+            <relation from="67e152328bc1436089c5238eae08c10a" to="9dbb6bcd5bbd43c99f394418db331d0a" derived="false">
+              <start-role id="umlar-0d87c7c3-5dfa-455a-8134-8a101d96c148" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-9c09b181-1634-45db-bdd3-cf39f28df60c" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="eaaac5e7c38e491b8b64066475543be1" cid="UC006" type="use-case" name="MODIFICAR  CLIENTE" style-class="" owner="0a10acb139fa4e079060947efae90ea5" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="1387d5a9e1d04f2d93306999c767a816" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" from="67e152328bc1436089c5238eae08c10a" to="eaaac5e7c38e491b8b64066475543be1" visibility="package">
+            <relation from="67e152328bc1436089c5238eae08c10a" to="eaaac5e7c38e491b8b64066475543be1" derived="false">
+              <start-role id="umlar-3c55d0f8-acdc-4bc4-b20a-4cc2b7ad9492" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-26cede50-dc12-45e7-be55-5470a7df907c" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="c343cb927d9b439b8898a7d9a8cbc567" cid="UC007" type="use-case" name="CONSULTAR CLIENTE" style-class="" owner="0a10acb139fa4e079060947efae90ea5" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="a48b80e4a50c4cdcb2e46a466e8a8fc3" cid="REL007" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" from="67e152328bc1436089c5238eae08c10a" to="c343cb927d9b439b8898a7d9a8cbc567" visibility="package">
+            <relation from="67e152328bc1436089c5238eae08c10a" to="c343cb927d9b439b8898a7d9a8cbc567" derived="false">
+              <start-role id="umlar-a3dcd10f-6ed2-4379-aca7-7a83887c9648" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-673cf513-34f1-41f3-a0b8-39be40f7e6d5" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="12ee780f9de14a2cbf6055bea7c2130d" cid="UC008" type="use-case" name="GENERAR INFORMES" style-class="" owner="0a10acb139fa4e079060947efae90ea5" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="d02fa5271d374198903ed20052eb39f9" cid="REL008" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" from="67e152328bc1436089c5238eae08c10a" to="12ee780f9de14a2cbf6055bea7c2130d" visibility="package">
+            <relation from="67e152328bc1436089c5238eae08c10a" to="12ee780f9de14a2cbf6055bea7c2130d" derived="false">
+              <start-role id="umlar-aae3f539-e407-46e0-857b-aab5e0a72ba6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-4099a545-2d1a-40ed-baa1-2a5b4012cfc5" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="0a10acb139fa4e079060947efae90ea5" cid="SYS002" type="system-boundary" name="MANTENIMIENTO DATOS DE CLIENTES" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:30:09">
+            <owned-items>
+              <owned-item ref="53ff70e934d14105aa9e614c92317663" />
+              <owned-item ref="9dbb6bcd5bbd43c99f394418db331d0a" />
+              <owned-item ref="eaaac5e7c38e491b8b64066475543be1" />
+              <owned-item ref="c343cb927d9b439b8898a7d9a8cbc567" />
+              <owned-item ref="12ee780f9de14a2cbf6055bea7c2130d" />
+              <owned-item ref="53ff70e934d14105aa9e614c92317663" />
+              <owned-item ref="9dbb6bcd5bbd43c99f394418db331d0a" />
+              <owned-item ref="eaaac5e7c38e491b8b64066475543be1" />
+              <owned-item ref="c343cb927d9b439b8898a7d9a8cbc567" />
+              <owned-item ref="12ee780f9de14a2cbf6055bea7c2130d" />
+            </owned-items>
+          </item>
+        </abstract-items>
+        <layer id="2c9ef88f1b084af18a8ec564b0e56b1d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="67e152328bc1436089c5238eae08c10a" iid="2bde345b13504d3eae3b4eb9f76aa508" creation-date="03/03/2022 11:25:55" order-index="0" type="entity">
+            <layout name-position="1,5.000002" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="144" ay="219" awidth="50" aheight="100" x="144" y="219" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="0a10acb139fa4e079060947efae90ea5" iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:30:09" order-index="11" type="entity">
+            <layout ax="248" ay="-68" awidth="335" aheight="574" x="248" y="-53" width="335" height="574" expanded="248,-68,335,574" collapsed="0,0,0,0" rotation-center="47.5,86.5" />
+          </item>
+          <item id="c343cb927d9b439b8898a7d9a8cbc567" iid="aa4a0df8bf3c45b88acdb16e5fb71d57" container="0a10acb139fa4e079060947efae90ea5" container-iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:27:48" order-index="7" type="entity">
+            <layout ax="357" ay="262.8262" awidth="120" aheight="75" x="403" y="349.8262" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="eaaac5e7c38e491b8b64066475543be1" iid="8a01c9a587044d608bd01b236a09c130" container="0a10acb139fa4e079060947efae90ea5" container-iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:26:45" order-index="5" type="entity">
+            <layout ax="326" ay="50.7529" awidth="151" aheight="94" x="372" y="137.7529" width="151" height="81" rotation-center="26.5,-29.5" />
+            <use-case />
+          </item>
+          <item id="9dbb6bcd5bbd43c99f394418db331d0a" iid="32b0ce7e33a7482491e647983fbf1090" container="0a10acb139fa4e079060947efae90ea5" container-iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:26:29" order-index="3" type="entity">
+            <layout ax="357" ay="168.6581" awidth="120" aheight="75" x="403" y="255.6581" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="53ff70e934d14105aa9e614c92317663" iid="8a717a76814d46fb8d20b8dafb80d4ed" container="0a10acb139fa4e079060947efae90ea5" container-iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:26:01" order-index="1" type="entity">
+            <layout ax="308" ay="-43" awidth="120" aheight="75" x="354" y="44" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="a48b80e4a50c4cdcb2e46a466e8a8fc3" iid="f50c537205f146ea88d9d6bd42328b3c" creation-date="03/03/2022 11:27:48" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="272" x2="358" y2="292" start-border-pos="0.3828125" end-border-pos="0.901087341308594" name-position="0,20">
+              <points>
+                <point x="194" y="272" />
+                <point x="358" y="292" />
+              </points>
+            </layout>
+            <relation from="67e152328bc1436089c5238eae08c10a" from-iid="2bde345b13504d3eae3b4eb9f76aa508" to="c343cb927d9b439b8898a7d9a8cbc567" to-iid="aa4a0df8bf3c45b88acdb16e5fb71d57" />
+          </item>
+          <item id="1387d5a9e1d04f2d93306999c767a816" iid="c3dad5f008034f5b97ca6f2c5c12112b" creation-date="03/03/2022 11:26:45" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="251" x2="339" y2="124" start-border-pos="0.329130897521973" end-border-pos="0.727944279348613" name-position="0,20">
+              <points>
+                <point x="194" y="251" />
+                <point x="339" y="124" />
+              </points>
+            </layout>
+            <relation from="67e152328bc1436089c5238eae08c10a" from-iid="2bde345b13504d3eae3b4eb9f76aa508" to="eaaac5e7c38e491b8b64066475543be1" to-iid="8a01c9a587044d608bd01b236a09c130" />
+          </item>
+          <item id="b888a410719b4d6c832787c0453246b9" iid="5abb1ee4891245cf92a1a1fc964e0d27" creation-date="03/03/2022 11:26:29" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="263" x2="361" y2="221" start-border-pos="0.359123001098633" end-border-pos="0.824720509847005" name-position="0,20">
+              <points>
+                <point x="194" y="263" />
+                <point x="361" y="221" />
+              </points>
+            </layout>
+            <relation from="67e152328bc1436089c5238eae08c10a" from-iid="2bde345b13504d3eae3b4eb9f76aa508" to="9dbb6bcd5bbd43c99f394418db331d0a" to-iid="32b0ce7e33a7482491e647983fbf1090" />
+          </item>
+          <item id="12ee780f9de14a2cbf6055bea7c2130d" iid="a7398c6cce3f45fc9dd6b380162079f3" container="0a10acb139fa4e079060947efae90ea5" container-iid="c966fbc6619546acb9dd44481b5020c8" creation-date="03/03/2022 11:28:55" order-index="9" type="entity">
+            <layout ax="326" ay="356.9942" awidth="120" aheight="75" x="372" y="443.9942" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="d02fa5271d374198903ed20052eb39f9" iid="fb8e8d686849423ca0835d96489c2e11" creation-date="03/03/2022 11:28:55" order-index="10" type="relation">
+            <layout start-role-position="25,63" end-role-position="25,-15" start-multiplicity-position="25,-16" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="283" x2="366" y2="359" start-border-pos="0.41100227355957" end-border-pos="0.991854654947917" name-position="0,20">
+              <points>
+                <point x="194" y="283" />
+                <point x="366" y="359" />
+              </points>
+            </layout>
+            <relation from="67e152328bc1436089c5238eae08c10a" from-iid="2bde345b13504d3eae3b4eb9f76aa508" to="12ee780f9de14a2cbf6055bea7c2130d" to-iid="a7398c6cce3f45fc9dd6b380162079f3" />
+          </item>
+          <item id="f97719f78c5e47b59606e4850658a095" iid="dde8ec67859f4b5bb19c1c29b528c1ad" creation-date="03/03/2022 11:26:01" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="234" x2="341" y2="27" start-border-pos="0.288630676269531" end-border-pos="0.682287851969401" name-position="0,20">
+              <points>
+                <point x="194" y="234" />
+                <point x="341" y="27" />
+              </points>
+            </layout>
+            <relation from="67e152328bc1436089c5238eae08c10a" from-iid="2bde345b13504d3eae3b4eb9f76aa508" to="53ff70e934d14105aa9e614c92317663" to-iid="8a717a76814d46fb8d20b8dafb80d4ed" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-usecase" id="p36ff7a6e901248ffbd575cf8c60a721b_992105601" name="UseCaseDiagram5" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-26">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Pedro García Rodríguez</author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:41:52</creation-date>
+          <change-date>03/03/2022 11:42:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di9b66d223e80e4e4b92b1a30235d9d15e9591" cid="AC003" type="actor" name="OPERADOR" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:25:55" visibility="undefined" />
+          <item id="di8b4fb0052b9540eba268f1f8a4cb30f79591" cid="SYS003" type="system-boundary" name="MANTENIMIENTO DATOS DE ARTICULOS" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:30:09">
+            <owned-items>
+              <owned-item ref="di7373776d800d439da13f40643f7d47a39591" />
+              <owned-item ref="dif37e105567904699856efda5768e1cbe9591" />
+              <owned-item ref="dif43ae43d7ad64f5aa17f1e82d229196d9591" />
+              <owned-item ref="di38ef7822f13f4510ba495b63d9ad1bb99591" />
+              <owned-item ref="diea795e7460904be0bd57a6034cad91df9591" />
+            </owned-items>
+          </item>
+          <item id="di7373776d800d439da13f40643f7d47a39591" cid="UC012" type="use-case" name="CONSULTAR ARTICULOS" style-class="" owner="di8b4fb0052b9540eba268f1f8a4cb30f79591" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="dif37e105567904699856efda5768e1cbe9591" cid="UC011" type="use-case" name="MODIFICAR  ARTICULO" style-class="" owner="di8b4fb0052b9540eba268f1f8a4cb30f79591" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="dif43ae43d7ad64f5aa17f1e82d229196d9591" cid="UC010" type="use-case" name="DAR DE BAJA ARTICULO" style-class="" owner="di8b4fb0052b9540eba268f1f8a4cb30f79591" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="di38ef7822f13f4510ba495b63d9ad1bb99591" cid="UC009" type="use-case" name="DAR DE ALTA ARTICULO" style-class="" owner="di8b4fb0052b9540eba268f1f8a4cb30f79591" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="die3a6f0d92e524cc7bafdf011248e8ef59591" cid="REL010" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="di7373776d800d439da13f40643f7d47a39591" visibility="package">
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="di7373776d800d439da13f40643f7d47a39591" derived="false">
+              <start-role id="umlar-c6595afb-69cd-447c-9ca9-157e6c3261c6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-07406d2b-3341-4d7a-bf21-8ca25c10c8a8" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="dic06140f252b74fc9861b8ce58a2023039591" cid="REL011" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="dif37e105567904699856efda5768e1cbe9591" visibility="package">
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="dif37e105567904699856efda5768e1cbe9591" derived="false">
+              <start-role id="umlar-fed9bb5a-7227-4b3f-a95e-04ef2677ab73" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e15b47ef-b3c9-41ea-9f68-ca5f72bece94" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="dic25cbc4a0e924033932ca15f31910f049591" cid="REL012" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="dif43ae43d7ad64f5aa17f1e82d229196d9591" visibility="package">
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="dif43ae43d7ad64f5aa17f1e82d229196d9591" derived="false">
+              <start-role id="umlar-8553153d-6d63-4d0b-b205-c2a8baf49a9a" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-ea075f27-043f-48d8-b327-978cbb6d6022" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="diea795e7460904be0bd57a6034cad91df9591" cid="UC013" type="use-case" name="GENERAR INFORMES" style-class="" owner="di8b4fb0052b9540eba268f1f8a4cb30f79591" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="did154395f3c3f4c75888bb12ad0e4a4279591" cid="REL013" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="diea795e7460904be0bd57a6034cad91df9591" visibility="package">
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="diea795e7460904be0bd57a6034cad91df9591" derived="false">
+              <start-role id="umlar-9d008ea2-839d-41e6-ae96-52b2074aedf6" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-bb3f0837-be87-4fd4-9d1f-355379feee99" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di84d9f1cfcdba4f69b263aa2ef426c50c9591" cid="REL014" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="di38ef7822f13f4510ba495b63d9ad1bb99591" visibility="package">
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" to="di38ef7822f13f4510ba495b63d9ad1bb99591" derived="false">
+              <start-role id="umlar-2c5f25e5-534a-417a-bf04-21e16b36b6a5" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-fb3fe82b-f43b-4748-bb13-28349b3d2b4c" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="3d212f214af9484095cc93230a09285e" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di9b66d223e80e4e4b92b1a30235d9d15e9591" iid="29577ce0b4a544ef99b6fe2e5dc00834" creation-date="03/03/2022 11:25:55" order-index="0" type="entity">
+            <layout name-position="1,5.000002" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="144" ay="219" awidth="50" aheight="100" x="144" y="219" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="di8b4fb0052b9540eba268f1f8a4cb30f79591" iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:30:09" order-index="11" type="entity">
+            <layout ax="248" ay="19" awidth="335" aheight="544" x="248" y="19" width="335" height="544" expanded="248,19,335,544" collapsed="0,0,0,0" rotation-center="47.5,14.5" />
+          </item>
+          <item id="di7373776d800d439da13f40643f7d47a39591" iid="00b538b62bce4fa9aab92d8d4d9501fe" container="di8b4fb0052b9540eba268f1f8a4cb30f79591" container-iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:27:48" order-index="7" type="entity">
+            <layout ax="357" ay="349.8262" awidth="120" aheight="75" x="403" y="349.8262" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="dif37e105567904699856efda5768e1cbe9591" iid="2913e4cef65d44d1b56f8c4e57ee8a21" container="di8b4fb0052b9540eba268f1f8a4cb30f79591" container-iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:26:45" order-index="5" type="entity">
+            <layout ax="326" ay="137.7529" awidth="151" aheight="94" x="372" y="137.7529" width="151" height="81" rotation-center="26.5,-29.5" />
+            <use-case />
+          </item>
+          <item id="dif43ae43d7ad64f5aa17f1e82d229196d9591" iid="c2b7491bbf624018906247ed2e1ab713" container="di8b4fb0052b9540eba268f1f8a4cb30f79591" container-iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:26:29" order-index="3" type="entity">
+            <layout ax="357" ay="255.6581" awidth="120" aheight="75" x="403" y="255.6581" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="di38ef7822f13f4510ba495b63d9ad1bb99591" iid="719fe63a15e04638921328f5d4993735" container="di8b4fb0052b9540eba268f1f8a4cb30f79591" container-iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:26:01" order-index="1" type="entity">
+            <layout ax="326" ay="51" awidth="120" aheight="75" x="326" y="51" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="die3a6f0d92e524cc7bafdf011248e8ef59591" iid="d5e6e129aab5418e8fba5685f6282ae5" creation-date="03/03/2022 11:27:48" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="281" x2="379" y2="358" start-border-pos="0.404737930297852" end-border-pos="0.971248677571615" name-position="0,20">
+              <points>
+                <point x="194" y="281" />
+                <point x="379" y="358" />
+              </points>
+            </layout>
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" from-iid="29577ce0b4a544ef99b6fe2e5dc00834" to="di7373776d800d439da13f40643f7d47a39591" to-iid="00b538b62bce4fa9aab92d8d4d9501fe" />
+          </item>
+          <item id="dic06140f252b74fc9861b8ce58a2023039591" iid="ec1f1b1e8a364670ad2dfbade89f9f94" creation-date="03/03/2022 11:26:45" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="260" x2="339" y2="212" start-border-pos="0.352467803955078" end-border-pos="0.801472765334109" name-position="0,20">
+              <points>
+                <point x="194" y="260" />
+                <point x="339" y="212" />
+              </points>
+            </layout>
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" from-iid="29577ce0b4a544ef99b6fe2e5dc00834" to="dif37e105567904699856efda5768e1cbe9591" to-iid="2913e4cef65d44d1b56f8c4e57ee8a21" />
+          </item>
+          <item id="dic25cbc4a0e924033932ca15f31910f049591" iid="1d1ada4f8f744de5bc1ef0c04eab4d74" creation-date="03/03/2022 11:26:29" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="271" x2="357" y2="287" start-border-pos="0.381048355102539" end-border-pos="0.894881795247396" name-position="0,20">
+              <points>
+                <point x="194" y="271" />
+                <point x="357" y="287" />
+              </points>
+            </layout>
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" from-iid="29577ce0b4a544ef99b6fe2e5dc00834" to="dif43ae43d7ad64f5aa17f1e82d229196d9591" to-iid="c2b7491bbf624018906247ed2e1ab713" />
+          </item>
+          <item id="diea795e7460904be0bd57a6034cad91df9591" iid="62218416787349259ef16d1faa6d816a" container="di8b4fb0052b9540eba268f1f8a4cb30f79591" container-iid="19175fcdb5734094b23693c8faa847f5" creation-date="03/03/2022 11:28:55" order-index="9" type="entity">
+            <layout ax="326" ay="443.9942" awidth="120" aheight="75" x="372" y="443.9942" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="did154395f3c3f4c75888bb12ad0e4a4279591" iid="83595065cffc41fc91afb84a2334214a" creation-date="03/03/2022 11:28:55" order-index="10" type="relation">
+            <layout start-role-position="25,63" end-role-position="25,-15" start-multiplicity-position="25,-16" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="293" x2="348" y2="452" start-border-pos="0.436059875488281" end-border-pos="0.0460987091064453" name-position="0,20">
+              <points>
+                <point x="194" y="293" />
+                <point x="348" y="452" />
+              </points>
+            </layout>
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" from-iid="29577ce0b4a544ef99b6fe2e5dc00834" to="diea795e7460904be0bd57a6034cad91df9591" to-iid="62218416787349259ef16d1faa6d816a" />
+          </item>
+          <item id="di84d9f1cfcdba4f69b263aa2ef426c50c9591" iid="173839e97e06495a8bc227ead3afd2b4" creation-date="03/03/2022 11:26:01" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="248" x2="340" y2="112" start-border-pos="0.32286865234375" end-border-pos="0.719912528991699" name-position="0,20">
+              <points>
+                <point x="194" y="248" />
+                <point x="340" y="112" />
+              </points>
+            </layout>
+            <relation from="di9b66d223e80e4e4b92b1a30235d9d15e9591" from-iid="29577ce0b4a544ef99b6fe2e5dc00834" to="di38ef7822f13f4510ba495b63d9ad1bb99591" to-iid="719fe63a15e04638921328f5d4993735" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-usecase" id="pa4ebf8825034404f884b1496df8b106a_890750701" name="UseCaseDiagram6" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,11">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Pedro García Rodríguez</author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:44:29</creation-date>
+          <change-date>03/03/2022 11:44:34</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di782e732856e84795a03def64b2f7e2cf1425" cid="AC004" type="actor" name="OPERADOR" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:25:55" visibility="undefined" />
+          <item id="di65d2725c99084a0d8904582e0b6f6c921425" cid="SYS004" type="system-boundary" name="MANTENIMIENTO DATOS DE FACTURAS" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:30:09">
+            <owned-items>
+              <owned-item ref="di3f58703aea0c4e3ead57f28568d3d6051425" />
+              <owned-item ref="di294f168aa54d4ec9b299ad372a7bb3631425" />
+              <owned-item ref="die4765a84acf142cda5a79f7287bded2b1425" />
+              <owned-item ref="di7c6d5b06a2434740b38d48b45abc70a41425" />
+              <owned-item ref="di36104ae0df424a85b4d824f962b0db9a1425" />
+            </owned-items>
+          </item>
+          <item id="di3f58703aea0c4e3ead57f28568d3d6051425" cid="UC017" type="use-case" name="CONSULTAR FACTURA" style-class="" owner="di65d2725c99084a0d8904582e0b6f6c921425" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="di294f168aa54d4ec9b299ad372a7bb3631425" cid="UC016" type="use-case" name="MODIFICAR  FACTURA" style-class="" owner="di65d2725c99084a0d8904582e0b6f6c921425" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="die4765a84acf142cda5a79f7287bded2b1425" cid="UC015" type="use-case" name="DAR DE BAJA FACTURA" style-class="" owner="di65d2725c99084a0d8904582e0b6f6c921425" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="di7c6d5b06a2434740b38d48b45abc70a41425" cid="UC014" type="use-case" name="CREAR FACTURA" style-class="" owner="di65d2725c99084a0d8904582e0b6f6c921425" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="di76f74d9fe3b64396a8abc31229c5f60b1425" cid="REL015" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:27:48" from="di782e732856e84795a03def64b2f7e2cf1425" to="di3f58703aea0c4e3ead57f28568d3d6051425" visibility="package">
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" to="di3f58703aea0c4e3ead57f28568d3d6051425" derived="false">
+              <start-role id="umlar-0a1e2f42-0a0d-43ec-903d-60cfe34a4491" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-00797654-130b-440b-9c7d-179b18c921a0" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di4f25b02753614a3dafee8623147c62241425" cid="REL016" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:45" from="di782e732856e84795a03def64b2f7e2cf1425" to="di294f168aa54d4ec9b299ad372a7bb3631425" visibility="package">
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" to="di294f168aa54d4ec9b299ad372a7bb3631425" derived="false">
+              <start-role id="umlar-707547b7-c068-4271-9bb8-6507c0ecf371" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-0ecd575c-f461-4e19-9c1a-ddb6dbd6ad07" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di01b3977787914ba58b4f0f16eafe08281425" cid="REL017" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:29" from="di782e732856e84795a03def64b2f7e2cf1425" to="die4765a84acf142cda5a79f7287bded2b1425" visibility="package">
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" to="die4765a84acf142cda5a79f7287bded2b1425" derived="false">
+              <start-role id="umlar-35724f9c-ec6d-4187-a261-f2e71ef458de" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-777d5768-ec5a-400d-8f3a-b64b0e234b40" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di36104ae0df424a85b4d824f962b0db9a1425" cid="UC018" type="use-case" name="GENERAR INFORMES" style-class="" owner="di65d2725c99084a0d8904582e0b6f6c921425" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="did544f262f15b4967a52828620d393b761425" cid="REL018" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:28:55" from="di782e732856e84795a03def64b2f7e2cf1425" to="di36104ae0df424a85b4d824f962b0db9a1425" visibility="package">
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" to="di36104ae0df424a85b4d824f962b0db9a1425" derived="false">
+              <start-role id="umlar-6685ab44-e39d-4bd3-83c0-e879e5ba3ef3" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-6dd7c1d2-00d0-4fa0-b08e-ac070250b351" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="dibfeec3560bb74a968c541e2aeacf26cb1425" cid="REL019" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:26:01" from="di782e732856e84795a03def64b2f7e2cf1425" to="di7c6d5b06a2434740b38d48b45abc70a41425" visibility="package">
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" to="di7c6d5b06a2434740b38d48b45abc70a41425" derived="false">
+              <start-role id="umlar-2458b143-e46f-4181-be9a-e04ebd3c078d" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-67cf86ad-1e50-47b6-97c1-77a965b338f2" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="b54cdca095cc4930a9cbc68c4c5d21fb" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di782e732856e84795a03def64b2f7e2cf1425" iid="4f3be459cf904f72bed82c7eadbad340" creation-date="03/03/2022 11:25:55" order-index="0" type="entity">
+            <layout name-position="1,5.000002" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="144" ay="219" awidth="50" aheight="100" x="144" y="219" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="di65d2725c99084a0d8904582e0b6f6c921425" iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:30:09" order-index="11" type="entity">
+            <layout ax="248" ay="19" awidth="368" aheight="534" x="248" y="19" width="368" height="534" expanded="248,19,368,534" collapsed="0,0,0,0" rotation-center="31,19.5" />
+          </item>
+          <item id="di3f58703aea0c4e3ead57f28568d3d6051425" iid="6ed419dea4e14ae2a7476eefebf4ccf7" container="di65d2725c99084a0d8904582e0b6f6c921425" container-iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:27:48" order-index="7" type="entity">
+            <layout ax="357" ay="349.8262" awidth="120" aheight="75" x="403" y="349.8262" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="di294f168aa54d4ec9b299ad372a7bb3631425" iid="014a2aa7ea664fe19cf4eba9d9b345d2" container="di65d2725c99084a0d8904582e0b6f6c921425" container-iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:26:45" order-index="5" type="entity">
+            <layout ax="326" ay="137.7529" awidth="151" aheight="94" x="372" y="137.7529" width="151" height="81" rotation-center="26.5,-29.5" />
+            <use-case />
+          </item>
+          <item id="die4765a84acf142cda5a79f7287bded2b1425" iid="fe5d39cafab14b87ac07a1250a934e08" container="di65d2725c99084a0d8904582e0b6f6c921425" container-iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:26:29" order-index="3" type="entity">
+            <layout ax="357" ay="255.6581" awidth="120" aheight="75" x="403" y="255.6581" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="di7c6d5b06a2434740b38d48b45abc70a41425" iid="2e631823599446a280ce6478e178f853" container="di65d2725c99084a0d8904582e0b6f6c921425" container-iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:26:01" order-index="1" type="entity">
+            <layout ax="308" ay="44" awidth="120" aheight="75" x="354" y="44" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="di76f74d9fe3b64396a8abc31229c5f60b1425" iid="099aa407b5374842955c82a743457020" creation-date="03/03/2022 11:27:48" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="281" x2="379" y2="358" start-border-pos="0.404737930297852" end-border-pos="0.971248677571615" name-position="0,20">
+              <points>
+                <point x="194" y="281" />
+                <point x="379" y="358" />
+              </points>
+            </layout>
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" from-iid="4f3be459cf904f72bed82c7eadbad340" to="di3f58703aea0c4e3ead57f28568d3d6051425" to-iid="6ed419dea4e14ae2a7476eefebf4ccf7" />
+          </item>
+          <item id="di4f25b02753614a3dafee8623147c62241425" iid="3128339931df43759314c51bc5d183ca" creation-date="03/03/2022 11:26:45" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="260" x2="339" y2="212" start-border-pos="0.352467803955078" end-border-pos="0.801472765334109" name-position="0,20">
+              <points>
+                <point x="194" y="260" />
+                <point x="339" y="212" />
+              </points>
+            </layout>
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" from-iid="4f3be459cf904f72bed82c7eadbad340" to="di294f168aa54d4ec9b299ad372a7bb3631425" to-iid="014a2aa7ea664fe19cf4eba9d9b345d2" />
+          </item>
+          <item id="di01b3977787914ba58b4f0f16eafe08281425" iid="5f7fcde233e24937959d406864f919bc" creation-date="03/03/2022 11:26:29" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="271" x2="357" y2="287" start-border-pos="0.381048355102539" end-border-pos="0.894881795247396" name-position="0,20">
+              <points>
+                <point x="194" y="271" />
+                <point x="357" y="287" />
+              </points>
+            </layout>
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" from-iid="4f3be459cf904f72bed82c7eadbad340" to="die4765a84acf142cda5a79f7287bded2b1425" to-iid="fe5d39cafab14b87ac07a1250a934e08" />
+          </item>
+          <item id="di36104ae0df424a85b4d824f962b0db9a1425" iid="bad94a9140a546b5b2c3c29318dce28c" container="di65d2725c99084a0d8904582e0b6f6c921425" container-iid="c655b7a9c6994a7ebb3aa76460a7b01b" creation-date="03/03/2022 11:28:55" order-index="9" type="entity">
+            <layout ax="326" ay="443.9942" awidth="120" aheight="75" x="372" y="443.9942" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="did544f262f15b4967a52828620d393b761425" iid="8c2ecba6f7e74ba6b79fe016687e5a57" creation-date="03/03/2022 11:28:55" order-index="10" type="relation">
+            <layout start-role-position="25,63" end-role-position="25,-15" start-multiplicity-position="25,-16" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="293" x2="348" y2="452" start-border-pos="0.436059875488281" end-border-pos="0.0460987091064453" name-position="0,20">
+              <points>
+                <point x="194" y="293" />
+                <point x="348" y="452" />
+              </points>
+            </layout>
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" from-iid="4f3be459cf904f72bed82c7eadbad340" to="di36104ae0df424a85b4d824f962b0db9a1425" to-iid="bad94a9140a546b5b2c3c29318dce28c" />
+          </item>
+          <item id="dibfeec3560bb74a968c541e2aeacf26cb1425" iid="d7938b21fe994392abeae1bc64dfa172" creation-date="03/03/2022 11:26:01" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="194" y1="246" x2="329" y2="109" start-border-pos="0.316268844604492" end-border-pos="0.707029851277669" name-position="0,20">
+              <points>
+                <point x="194" y="246" />
+                <point x="329" y="109" />
+              </points>
+            </layout>
+            <relation from="di782e732856e84795a03def64b2f7e2cf1425" from-iid="4f3be459cf904f72bed82c7eadbad340" to="di7c6d5b06a2434740b38d48b45abc70a41425" to-iid="2e631823599446a280ce6478e178f853" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="pad28a751371c40b096b2a186d7207498_377668941" name="ClassDiagram1" order-index="7" overview-order-index="5" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-213,-13" zoom="0.8">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Pedro García Rodríguez</author>
+          </authors>
+          <description />
+          <creation-date>03/03/2022 11:58:46</creation-date>
+          <change-date>03/07/2022 11:45:44</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="dde2ea4719f24ff1a62c4911104b1d93" cid="C001" type="class" name="Cliente" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:58:58" visibility="undefined">
+            <owned-items>
+              <owned-item ref="b57782f5a81c46fc8cc9f3500b5d1c4a" />
+              <owned-item ref="c3d58e239da3433b9ac865ef0cde002e" />
+              <owned-item ref="ea2daca4ca7842d7a4fc3b2ad7c3b440" />
+              <owned-item ref="4262c79062f44a04bc0c297c73e9034d" />
+              <owned-item ref="6446f611c0a14cfda6c992fb4ded6b1a" />
+            </owned-items>
+            <attributes>
+              <attribute id="a5d7e0e72c46742bb880e1315e90cb2ff721" cid="PROP001" name="codCliente" creation-date="03/03/2022 11:59:07" property-ref="b57782f5a81c46fc8cc9f3500b5d1c4a" />
+              <attribute id="a670f625052ae4eef87947984d753c110194" cid="PROP002" name="nombre" creation-date="03/03/2022 11:59:20" property-ref="c3d58e239da3433b9ac865ef0cde002e" />
+              <attribute id="a3f1a81e584984aa08d7ff35d5998507d105" cid="PROP003" name="tlfno" creation-date="03/03/2022 11:59:25" property-ref="ea2daca4ca7842d7a4fc3b2ad7c3b440" />
+              <attribute id="a5716b8c949104cabbeea86c03a0f6cef709" cid="PROP004" name="direccion" creation-date="03/03/2022 11:59:30" property-ref="4262c79062f44a04bc0c297c73e9034d" />
+              <attribute id="af5356db75501438d8c803a70479ace52583" cid="PROP015" name="facturas" creation-date="03/03/2022 12:38:23" property-ref="6446f611c0a14cfda6c992fb4ded6b1a" />
+            </attributes>
+            <operations>
+              <operation id="o6796e8ffaaa3488cba701c470157d93c900" cid="OP004" name="SolicitarFactura" creation-date="03/07/2022 11:42:53" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="b57782f5a81c46fc8cc9f3500b5d1c4a" cid="PROP001" type="property" name="codCliente" style-class="" owner="dde2ea4719f24ff1a62c4911104b1d93" creator="" creation-date="03/03/2022 11:59:07" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="c3d58e239da3433b9ac865ef0cde002e" cid="PROP002" type="property" name="nombre" style-class="" owner="dde2ea4719f24ff1a62c4911104b1d93" creator="" creation-date="03/03/2022 11:59:20" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="ea2daca4ca7842d7a4fc3b2ad7c3b440" cid="PROP003" type="property" name="tlfno" style-class="" owner="dde2ea4719f24ff1a62c4911104b1d93" creator="" creation-date="03/03/2022 11:59:25" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="4262c79062f44a04bc0c297c73e9034d" cid="PROP004" type="property" name="direccion" style-class="" owner="dde2ea4719f24ff1a62c4911104b1d93" creator="" creation-date="03/03/2022 11:59:30" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="876c93959b3248729f7f3011bef20bdd" cid="C002" type="class" name="Articulo" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 11:59:50" visibility="undefined">
+            <owned-items>
+              <owned-item ref="d40fd5a56e684cf48dbfe473678581e5" />
+              <owned-item ref="70bc964249f84112889903ca3d8bc546" />
+              <owned-item ref="2c1df75277ff4f9ea39595bbceac77c8" />
+              <owned-item ref="bd47507e8cab4d338e08c24cb4c56592" />
+            </owned-items>
+            <attributes>
+              <attribute id="a19f15373cecd47b284ba076f15691f52450" cid="PROP005" name="codArticulo" creation-date="03/03/2022 12:00:12" property-ref="d40fd5a56e684cf48dbfe473678581e5" />
+              <attribute id="ac35ef5befd254be1a2eae2212c3b7e84240" cid="PROP006" name="denominacion" creation-date="03/03/2022 12:00:19" property-ref="70bc964249f84112889903ca3d8bc546" />
+              <attribute id="a92568fd06bcd40a5a1ebb77ca400aac1586" cid="PROP007" name="pvp" creation-date="03/03/2022 12:00:26" property-ref="2c1df75277ff4f9ea39595bbceac77c8" />
+              <attribute id="a7671bfcbbce6442d9e54b694b2091208845" cid="PROP008" name="stock" creation-date="03/03/2022 12:00:32" property-ref="bd47507e8cab4d338e08c24cb4c56592" />
+            </attributes>
+          </item>
+          <item id="d40fd5a56e684cf48dbfe473678581e5" cid="PROP005" type="property" name="codArticulo" style-class="" owner="876c93959b3248729f7f3011bef20bdd" creator="" creation-date="03/03/2022 12:00:12" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="70bc964249f84112889903ca3d8bc546" cid="PROP006" type="property" name="denominacion" style-class="" owner="876c93959b3248729f7f3011bef20bdd" creator="" creation-date="03/03/2022 12:00:19" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="2c1df75277ff4f9ea39595bbceac77c8" cid="PROP007" type="property" name="pvp" style-class="" owner="876c93959b3248729f7f3011bef20bdd" creator="" creation-date="03/03/2022 12:00:26" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="bd47507e8cab4d338e08c24cb4c56592" cid="PROP008" type="property" name="stock" style-class="" owner="876c93959b3248729f7f3011bef20bdd" creator="" creation-date="03/03/2022 12:00:32" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="626a9a9fbf3e41f38e93df843e59829c" cid="C003" type="class" name="Factura" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:00:44" visibility="undefined">
+            <owned-items>
+              <owned-item ref="ce4c998467ba457ebaaf3f401b0ce621" />
+              <owned-item ref="0ec66f0748634cc6aaa86074f55fda2a" />
+              <owned-item ref="5b908bd764424e9ba45ccb18e6f7a5d0" />
+              <owned-item ref="e3e65dd84fc14e61911560105d011852" />
+            </owned-items>
+            <attributes>
+              <attribute id="a6889ce57994941c3bcad23a9076124b6578" cid="PROP009" name="numFactura" creation-date="03/03/2022 12:00:54" property-ref="ce4c998467ba457ebaaf3f401b0ce621" />
+              <attribute id="a246c89df8589408181f21104a66ae096399" cid="PROP010" name="fecha" creation-date="03/03/2022 12:01:18" property-ref="0ec66f0748634cc6aaa86074f55fda2a" />
+              <attribute id="ad5382261874045caa8da4417d8e281a1284" cid="PROP014" name="lineas" creation-date="03/03/2022 12:30:24" property-ref="5b908bd764424e9ba45ccb18e6f7a5d0" />
+              <attribute id="a3b6edc3a56454efb9c774db918472f20423" cid="PROP019" name="cliente" creation-date="03/03/2022 12:50:47" property-ref="e3e65dd84fc14e61911560105d011852" />
+            </attributes>
+            <operations>
+              <operation id="o88d265dc83a64255a4b8da198664ac7d725" cid="OP001" name="AddLineaFact" creation-date="03/07/2022 11:32:29" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="ce4c998467ba457ebaaf3f401b0ce621" cid="PROP009" type="property" name="numFactura" style-class="" owner="626a9a9fbf3e41f38e93df843e59829c" creator="" creation-date="03/03/2022 12:00:54" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="0ec66f0748634cc6aaa86074f55fda2a" cid="PROP010" type="property" name="fecha" style-class="" owner="626a9a9fbf3e41f38e93df843e59829c" creator="" creation-date="03/03/2022 12:01:18" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="d6064f090f0a4cf893f2012bbb7d16de" cid="REL026" type="relationship" name="tiene" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:55:31" from="dde2ea4719f24ff1a62c4911104b1d93" to="626a9a9fbf3e41f38e93df843e59829c" visibility="package">
+            <relation from="dde2ea4719f24ff1a62c4911104b1d93" to="626a9a9fbf3e41f38e93df843e59829c" derived="false">
+              <start-role id="umlar-8ff61aad-82a2-4788-950e-40010c799ab8" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-ef367889-c943-4565-8c93-8249bf4b6d42" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="21d56d5ac58441b9a34b0b6734278505" cid="C004" type="class" name="LineaDeFactura" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:07:25" visibility="undefined">
+            <owned-items>
+              <owned-item ref="9eb4b058877e4c41a5ef66e36954e238" />
+              <owned-item ref="8c09cee9456145e3a722aaa2a78847c7" />
+            </owned-items>
+            <attributes>
+              <attribute id="af5854384e84944d8b5d1e07c8003d122719" cid="PROP011" name="codArticulo" creation-date="03/03/2022 12:07:44" property-ref="9eb4b058877e4c41a5ef66e36954e238" />
+              <attribute id="aa86d9f9368d84dcfbadbdd728ce093c1279" cid="PROP012" name="unidadesVendidas" creation-date="03/03/2022 12:09:30" property-ref="8c09cee9456145e3a722aaa2a78847c7" />
+            </attributes>
+            <operations>
+              <operation id="o753a560b823b448ea9af54002cba295129" cid="OP003" name="PrecioTotal" creation-date="03/07/2022 11:34:28" type="" type-id="" visibility="private" />
+              <operation id="oe8dbc43e191b42f193f643dc74ca3db8774" cid="OP007" name="StockDisponible" creation-date="03/07/2022 11:46:25" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="9eb4b058877e4c41a5ef66e36954e238" cid="PROP011" type="property" name="codArticulo" style-class="" owner="21d56d5ac58441b9a34b0b6734278505" creator="" creation-date="03/03/2022 12:07:44" visibility="private">
+            <feature />
+            <structural-feature type="Articulo" type-id="Class:876c93959b3248729f7f3011bef20bdd" />
+            <property />
+          </item>
+          <item id="8c09cee9456145e3a722aaa2a78847c7" cid="PROP012" type="property" name="unidadesVendidas" style-class="" owner="21d56d5ac58441b9a34b0b6734278505" creator="" creation-date="03/03/2022 12:09:30" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="1c9973091858477880ff2833e047e71f" cid="REL027" type="relationship" name="tiene" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 13:17:29" from="626a9a9fbf3e41f38e93df843e59829c" to="21d56d5ac58441b9a34b0b6734278505" visibility="package">
+            <relation from="626a9a9fbf3e41f38e93df843e59829c" to="21d56d5ac58441b9a34b0b6734278505" derived="false">
+              <start-role id="umlar-94873147-be5e-4160-9c39-10ab1ba5458d" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-6929b616-a689-4ad9-bd4b-1daf92924653" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="75a06223e0bc460280e622a7b88c9166" cid="REL025" type="relationship" name="tiene" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:24:12" from="21d56d5ac58441b9a34b0b6734278505" to="876c93959b3248729f7f3011bef20bdd" visibility="package">
+            <relation from="21d56d5ac58441b9a34b0b6734278505" to="876c93959b3248729f7f3011bef20bdd" derived="false">
+              <start-role id="umlar-45977cea-5020-466f-94e5-072bc61339c3" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-26fe5884-faa5-46c0-83c2-bcb21814e06b" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="5b908bd764424e9ba45ccb18e6f7a5d0" cid="PROP014" type="property" name="lineas" style-class="" owner="626a9a9fbf3e41f38e93df843e59829c" creator="" creation-date="03/03/2022 12:30:24" visibility="private">
+            <feature />
+            <structural-feature type="LineaDeFactura" type-id="Class:21d56d5ac58441b9a34b0b6734278505" />
+            <property />
+          </item>
+          <item id="6446f611c0a14cfda6c992fb4ded6b1a" cid="PROP015" type="property" name="facturas" style-class="" owner="dde2ea4719f24ff1a62c4911104b1d93" creator="" creation-date="03/03/2022 12:38:23" visibility="private">
+            <feature />
+            <structural-feature type="Factura" type-id="Class:626a9a9fbf3e41f38e93df843e59829c" />
+            <property />
+          </item>
+          <item id="951a608331044582bf6b55d0d6fdcc4f" cid="C005" type="class" name="ClienteEmpresa" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:46:20" visibility="undefined">
+            <owned-items>
+              <owned-item ref="3e5f722615764b9ca3601ed4e2b156f0" />
+              <owned-item ref="960ff0ba779549128262c00ad9c509a6" />
+            </owned-items>
+            <attributes>
+              <attribute id="aa4c63e1d8df34117a155390884077e6e435" cid="PROP016" name="cif" creation-date="03/03/2022 12:47:43" property-ref="3e5f722615764b9ca3601ed4e2b156f0" />
+              <attribute id="a8ba722f39ff84604965cbde29e6fb68e194" cid="PROP017" name="razonSocial" creation-date="03/03/2022 12:47:50" property-ref="960ff0ba779549128262c00ad9c509a6" />
+            </attributes>
+          </item>
+          <item id="6d8bee3a1c634e96b6442c2874fd300e" cid="C006" type="class" name="ClienteParticular" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:46:33" visibility="undefined">
+            <owned-items>
+              <owned-item ref="1aee2ab34184443caf1dc83669876823" />
+            </owned-items>
+            <attributes>
+              <attribute id="ae7fb699744db4c07a35bf5f1d8238097409" cid="PROP018" name="descuento" creation-date="03/03/2022 12:48:03" property-ref="1aee2ab34184443caf1dc83669876823" />
+            </attributes>
+            <operations>
+              <operation id="ode83e82733b24ae19570e855373eaf12880" cid="OP002" name="AddDescuento" creation-date="03/07/2022 11:33:46" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="8082b73eda384f3db8053a29cc9e1a24" cid="GNR003" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:47:13" from="951a608331044582bf6b55d0d6fdcc4f" to="dde2ea4719f24ff1a62c4911104b1d93" visibility="package" />
+          <item id="d5410ed9f5b6488d8780aed5123c37e1" cid="GNR004" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="03/03/2022 12:47:23" from="6d8bee3a1c634e96b6442c2874fd300e" to="dde2ea4719f24ff1a62c4911104b1d93" visibility="package" />
+          <item id="3e5f722615764b9ca3601ed4e2b156f0" cid="PROP016" type="property" name="cif" style-class="" owner="951a608331044582bf6b55d0d6fdcc4f" creator="" creation-date="03/03/2022 12:47:43" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="960ff0ba779549128262c00ad9c509a6" cid="PROP017" type="property" name="razonSocial" style-class="" owner="951a608331044582bf6b55d0d6fdcc4f" creator="" creation-date="03/03/2022 12:47:50" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="1aee2ab34184443caf1dc83669876823" cid="PROP018" type="property" name="descuento" style-class="" owner="6d8bee3a1c634e96b6442c2874fd300e" creator="" creation-date="03/03/2022 12:48:03" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="e3e65dd84fc14e61911560105d011852" cid="PROP019" type="property" name="cliente" style-class="" owner="626a9a9fbf3e41f38e93df843e59829c" creator="" creation-date="03/03/2022 12:50:47" visibility="private">
+            <feature />
+            <structural-feature type="Cliente" type-id="Class:dde2ea4719f24ff1a62c4911104b1d93" />
+            <property />
+          </item>
+        </abstract-items>
+        <layer id="1cb65f2267864be59ba38f3c738b4f8a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="dde2ea4719f24ff1a62c4911104b1d93" iid="866868f56f7c40aa86893278246ef9fb" creation-date="03/03/2022 11:58:58" order-index="0" type="entity">
+            <layout ax="44" ay="42" awidth="140" aheight="160" x="44" y="42" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="876c93959b3248729f7f3011bef20bdd" iid="5c3f126d1a7d4222abc1c636207b4e08" creation-date="03/03/2022 11:59:50" order-index="1" type="entity">
+            <layout ax="1076" ay="42" awidth="140" aheight="160" x="1076" y="42" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="626a9a9fbf3e41f38e93df843e59829c" iid="890b9d3e508e41d290897fa4695f95ad" creation-date="03/03/2022 12:00:44" order-index="2" type="entity">
+            <layout ax="411" ay="42" awidth="151" aheight="160" x="411" y="42" width="151" height="160" rotation-center="-5.5,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="21d56d5ac58441b9a34b0b6734278505" iid="dc648c6bd61149249fde5162770bf847" creation-date="03/03/2022 12:07:25" order-index="4" type="entity">
+            <layout ax="740" ay="42" awidth="158" aheight="160" x="740" y="42" width="158" height="160" rotation-center="-9,0" />
+            <classifier />
+            <class />
+          </item>
+          <item id="75a06223e0bc460280e622a7b88c9166" iid="242681b2c8da473c9b4db761cca371c2" creation-date="03/03/2022 12:24:12" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25.00001,-15" end-multiplicity-position="24.99999,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="898" y1="123" x2="1076" y2="122" start-border-pos="0.3765625" end-border-pos="0.875" start-local-pos="81" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="898" y="123" />
+                <point x="1076" y="122" />
+              </points>
+            </layout>
+            <relation from="21d56d5ac58441b9a34b0b6734278505" from-iid="dc648c6bd61149249fde5162770bf847" to="876c93959b3248729f7f3011bef20bdd" to-iid="5c3f126d1a7d4222abc1c636207b4e08" />
+          </item>
+          <item id="951a608331044582bf6b55d0d6fdcc4f" iid="c2373a4e37ce4466b5c27fba17510bde" creation-date="03/03/2022 12:46:20" order-index="7" type="entity">
+            <layout ax="-51" ay="325" awidth="140" aheight="160" x="-51" y="325" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="6d8bee3a1c634e96b6442c2874fd300e" iid="c2f177f4cfb546b1adb9ea519f87050e" creation-date="03/03/2022 12:46:33" order-index="8" type="entity">
+            <layout ax="146" ay="325" awidth="140" aheight="160" x="146" y="325" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="8082b73eda384f3db8053a29cc9e1a24" iid="a3d53336d5634496b7d5fed332691857" creation-date="03/03/2022 12:47:13" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="18" y1="325" x2="114" y2="202" start-border-pos="0.123214285714286" end-border-pos="0.625" start-local-pos="69" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="18" y="325" />
+                <point x="114" y="202" />
+              </points>
+            </layout>
+            <relation from="951a608331044582bf6b55d0d6fdcc4f" from-iid="c2373a4e37ce4466b5c27fba17510bde" to="dde2ea4719f24ff1a62c4911104b1d93" to-iid="866868f56f7c40aa86893278246ef9fb" />
+          </item>
+          <item id="d5410ed9f5b6488d8780aed5123c37e1" iid="d597df4ac62c47ad9659eddc7c7431c6" creation-date="03/03/2022 12:47:23" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="216" y1="325" x2="114" y2="202" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="70" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="216" y="325" />
+                <point x="114" y="202" />
+              </points>
+            </layout>
+            <relation from="6d8bee3a1c634e96b6442c2874fd300e" from-iid="c2f177f4cfb546b1adb9ea519f87050e" to="dde2ea4719f24ff1a62c4911104b1d93" to-iid="866868f56f7c40aa86893278246ef9fb" />
+          </item>
+          <item id="d6064f090f0a4cf893f2012bbb7d16de" iid="85df748fbf0543e2a406b76822493aed" creation-date="03/03/2022 12:55:31" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="184" y1="122" x2="411" y2="122" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="184" y="122" />
+                <point x="411" y="122" />
+              </points>
+            </layout>
+            <relation from="dde2ea4719f24ff1a62c4911104b1d93" from-iid="866868f56f7c40aa86893278246ef9fb" to="626a9a9fbf3e41f38e93df843e59829c" to-iid="890b9d3e508e41d290897fa4695f95ad" />
+          </item>
+          <item id="1c9973091858477880ff2833e047e71f" iid="df466561bc5b4f7990a47a62fad2393e" creation-date="03/03/2022 13:17:29" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="23,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="562" y1="122" x2="740" y2="122" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="562" y="122" />
+                <point x="740" y="122" />
+              </points>
+            </layout>
+            <relation from="626a9a9fbf3e41f38e93df843e59829c" from-iid="890b9d3e508e41d290897fa4695f95ad" to="21d56d5ac58441b9a34b0b6734278505" to-iid="dc648c6bd61149249fde5162770bf847" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
